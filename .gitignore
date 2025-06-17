@@ -1,0 +1,26 @@
+# Fichiers d'environnement
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Données générées
+data/*.json
+alerte_*.json
+weather_dataset_*.json
+comparaisons_*.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
